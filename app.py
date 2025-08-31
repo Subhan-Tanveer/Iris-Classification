@@ -4,7 +4,7 @@ import streamlit as st
 
 
 loaded_model = pickle.load(open(
-    'D:/Machine Learning Projects/Supervised Learning Algorithms/Iris Classification Model/trained_model.sav',
+    'trained_model.sav',
     'rb'
 ))
 
@@ -46,3 +46,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
